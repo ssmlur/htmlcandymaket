@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-image: url(конфетфтоп2.jpg);
+	background-attachment: fixed;
+
+
+}
+
+.buttons{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows:60px ;
+
+
+}
+
+.icons{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.icons>article>span,
+.tell{
+	color: white;
+}
+
+.tell{
+	font-size: 24px;
+}
+
+.icons>img{
+	max-height: 60px;
+}
+
+.buttons>button{
+	color: white;
+	border-style: none;
+}
+.buttons > button:nth-child(1){
+	background-color: pink ;
+}
+.buttons > button:nth-child(2){
+	background-color: cyan ;
+}
+.buttons > button:nth-child(3){
+	background-color: lightpink ;
+}
+.buttons > button:nth-child(4){
+	background-color: lightblue ;
+}
+.buttons > button:nth-child(5){
+	background-color: lightcoral ;
+}
+.buttons > button:nth-child(6){
+	background-color: cyan;
+}
+
+
+
+/*основная часть*/
+body>section{
+	display: grid;
+	margin-top: 20px;
+	grid-template-columns: 1fr 3fr;
+}
+
+nav>button{
+	width: 100%;
+	background-color: lightblue;
+	padding: 30px 0;
+	border-style: none;
+	color: white;
+	margin: 2px;
+}
+
+main{
+	padding-left: 20px;
+	margin-top: 2px;
+
+}
+
+main>article{
+	position: relative;
+}
+
+main>article>img{
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	z-index: -1;
+
+}
+
+h1{
+	padding: 0;
+	margin: 0;
+	font-size: 48px;
+	color: white;
+	text-shadow: 
+		-0   -2px 1px #000000,
+		 0   -2px 1px #000000,
+		-0    2px 1px #000000,
+		 0    2px 1px #000000,
+		-2px -0   1px #000000,
+		 2px -0   1px #000000,
+		-2px  0   1px #000000,
+		 2px  0   1px #000000,
+		-1px -2px 1px #000000,
+		 1px -2px 1px #000000,
+		-1px  2px 1px #000000,
+		 1px  2px 1px #000000,
+		-2px -1px 1px #000000,
+		 2px -1px 1px #000000,
+		-2px  1px 1px #000000,
+		 2px  1px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.info{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.info>p,
+ .advantages>p{
+	padding: 20px;
+	text-align: center;
+}
+
+.orange {
+	background-color: pink;
+}
+
+.cyan {
+	background-color: cyan;
+}
+.advantages{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+
+}
+.red{
+	background-color: lightblue;
+
+}
+.green{
+	background-color: coral;
+
+}
+.blue{
+	background-color: blue;
+
+}
+.advantages>p, .info>p{
+	color: white;
+}
+h2{
+	text-align: center;
+	margin: 20px 0;
+	color: lightcoral;
+}
+/*подвал*/
+footer{
+	background-color: rgba(50, 50, 50, 0.75);
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+footer>article>i{
+	padding: 5px 5px;
+	background-color:white ;
+	border-radius: 5px;
+}
+
+.icon{
+	max-width: 50px;
+}
+.lolo{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	color: white;
+	text-shadow: 
+}
+.loli{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	color: white;
+	text-shadow: 
+}
